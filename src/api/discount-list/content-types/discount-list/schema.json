@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discount_lists",
+  "info": {
+    "singularName": "discount-list",
+    "pluralName": "discount-lists",
+    "displayName": "discountList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    },
+    "bundle": {
+      "type": "string"
+    },
+    "minimum": {
+      "type": "integer"
+    }
+  }
+}
