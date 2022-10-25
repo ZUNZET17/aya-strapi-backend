@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aya_eu_discounts",
+  "info": {
+    "singularName": "aya-eu-discount",
+    "pluralName": "aya-eu-discounts",
+    "displayName": "aya-eu-discount"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    },
+    "bundle": {
+      "type": "string"
+    },
+    "minimum": {
+      "type": "integer"
+    }
+  }
+}

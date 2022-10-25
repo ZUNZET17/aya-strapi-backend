@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aoa_eu_discounts",
+  "info": {
+    "singularName": "aoa-eu-discount",
+    "pluralName": "aoa-eu-discounts",
+    "displayName": "aoa-eu-discount"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    },
+    "bundle": {
+      "type": "string"
+    },
+    "minimum": {
+      "type": "integer"
+    }
+  }
+}
